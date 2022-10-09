@@ -8,13 +8,16 @@ I'm 3D graphic designer.
 
 My main specialisation is 3D modeling, but i'm also experienced in creating interior/exterior visualisations, packshots and technical 3d animations.
 # Skills
-- 3d studio max (3d modeling, rendering, FX simulations like fluid)
-- Adobe Photoshop, After Effects (postproductioning 3d renders)
 - HTML
 - CSS
 - JavaScript (Fundamentals)
-- Editors: Visual Studio Code
+- Editors:
+  - Visual Studio Code
 - Windows OS
+- Tools:
+  - 3D Studio Max (3d modeling, rendering, FX simulations like fluid)
+  - Adobe Photoshop (postproductioning 3d renders)
+  - After Effects  (postproductioning 3d render sequences)
 # Code examples
 # Experience
 - 3D Graphic Designer – Freelancer(Since 2017)
