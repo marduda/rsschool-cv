@@ -83,16 +83,19 @@
           <section class="code-example">
             <h3>Code example</h3>
             <p>Write an algorithm that will identify valid IPv4 addresses in dot-decimal format. IPs should be considered valid if they consist of four octets, with values between 0 and 255, inclusive.</p>
-            <pre><code>function isValidIP(str) {
+            <pre>
+              <code>function isValidIP(str) {
   let arr = str.split(/[.]/);
   let re = /^(?:[1-9][0-9]*|0)$/;
 
-  if (arr.length === 4 && arr.every(v => (re.test(v) && v <= 255))) {
+  if (arr.length === 4 && arr.every(v => (re.test(v) && v &#60;= 255))) {
       return true;
   } else {
     return false;
     }
-  }</code></pre>
+  }
+              </code>
+            </pre>
           </section>
           <section class="projects">
             <h3>Projects</h3>
