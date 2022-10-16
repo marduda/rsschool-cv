@@ -1,0 +1,147 @@
+:root{
+  --header-color: #F4C095;
+  --left-col-color: #071E22;
+  --code-color: #e7e7e7;
+  --bg-color: #1D7874;
+  --font-bright-color: #FFF;
+  --font-dark-color: #000;
+  --hover-color: #EE2E31;
+  --shadow-color: rgba(27, 27, 27, 0.4);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100%;
+  font-family: 'Montserrat';
+  font-size: 22px;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+}
+
+h3 {
+  padding: 0.5em 0;
+  text-align: center;
+  color: var(--font-dark-color);
+  border-radius: 0.5em;
+  box-shadow: 5px 5px 5px var(--shadow-color);
+  background-color: var(--header-color); 
+}
+
+header {
+  color: var(--font-bright-color);
+  background-color: var(--bg-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+header > img {
+  border: 5px outset var(--header-color);
+  border-radius: 25%;
+  margin: 30px;
+  width: 300px;
+  height:300px;
+  object-fit: cover;
+  object-position: 0 15% ;
+  
+}
+
+.header-content {
+  margin: auto;
+}
+
+header > :last-child {
+  padding-bottom: 30px;
+}
+
+.container {
+  width: 1200px;
+  margin: 30px auto;
+  box-shadow: 12px 12px 12px var(--shadow-color);
+}
+
+.two-columns {
+  display: flex;
+}
+
+.left-side {
+  width: 30%;
+  background-color: var(--left-col-color);
+  color: var(--font-bright-color);
+}
+
+.right-side {
+  width: 70%;
+}
+
+section {
+  padding: 0 30px;
+}
+
+section > :last-child {
+  margin-bottom: 1em;
+}
+
+.education > :last-child {
+  font-style: italic;
+}
+
+footer {
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--bg-color);
+  color: var(--font-bright-color);
+}
+
+footer * {
+  margin: auto;
+}
+
+a {
+  color: var(--font-bright-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--hover-color);
+}
+
+
+.icon {
+  height: 3em;
+  filter: invert(99%) sepia(14%) saturate(2%) hue-rotate(61deg) brightness(107%) contrast(100%);
+}
+
+.icon:hover {
+  filter: invert(40%) sepia(73%) saturate(3916%) hue-rotate(334deg) brightness(87%) contrast(119%);
+}
+
+pre {
+  background-color: var(--code-color);
+  overflow-x: auto;
+  margin: 30px 0;
+  border-radius: 15px;;
+}
+
+code {
+  display: block;
+  width: 100%;
+  position: relative;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+}
+
+.projects {
+  margin-bottom: 30px;
+}
+
+.projects > p > a {
+  color: var(--font-dark-color)
+}

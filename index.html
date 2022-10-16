@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Curriculum vitae</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="./images/profile-photo.jpg" alt="portrait photography">
+        <div class="header-content">
+          <h1>Marcin Duda</h1>
+          <h2>Junior Frontend Developer</h2>
+        </div>
+      </header>
+      <div class="two-columns">
+        <div class="left-side">
+          <main>
+            <section class="contact">
+              <h3>Contact</h3>
+              <ul>
+                <li>
+                  <p>Adress: Wrocław, Poland</p>
+                </li>
+                <li>
+                  <p>Email: m4rcin.duda@gmail.com</p>
+                </li>
+                <li>
+                  <p>LinkedIn: <a href="https://www.linkedin.com/in/marcin-duda/" target="_blank">Marcin Duda</a></p>
+                </li>
+              </ul>
+            </section>
+            <section class="skills">
+              <h3>Skills</h3>
+              <ul>
+                <li><p>3D Studio Max</p></li>
+                <li><p>Photoshop</p></li>
+                <li><p>After Effects</p></li>
+                <li><p>HTML5/CSS3</p></li>
+                <li><p>JavaScript</p></li>
+                <li><p>Visual Studio Code</p></li>
+                <li><p>Windows OS</p></li>
+              </ul>
+            </section>
+            <section class="languages">
+              <h3>languages</h3>
+              <ul>
+                <li>
+                  <p>English</p>
+                  <p>Intermediate</p>
+                </li>
+                <li>
+                  <p>Polish</p>
+                  <p>Native</p>
+                </li>
+              </ul>
+            </section>
+          </main>
+        </div>
+        <div class="right-side">
+          <section class="summary">
+            <h3>Summary</h3>
+            <p>Hi! I'm 3D graphic designer.</p>
+            <p>My main specialisation is 3D modeling, but i'm also experienced in creating interior/exterior visualisations, packshots and technical 3d animations.</p>
+          </section>
+          <section class="experience">
+            <h3>Experience</h3>
+            <p>3D Graphic Designer - Freelancer(Since 2017)</p>
+          </section>
+          <section class="education">
+            <h3>Education</h3>
+            <p>Wroclaw School of Information Technology</p>
+            <p>engineering degree at the Faculty of graphic design</p>
+          </section>
+          <section class="courses">
+            <h3>Courses</h3>
+            <p>Responsive Web Desing - freeCodeCamp</p>
+          </section>
+          <section class="code-example">
+            <h3>Code example</h3>
+            <p>Write an algorithm that will identify valid IPv4 addresses in dot-decimal format. IPs should be considered valid if they consist of four octets, with values between 0 and 255, inclusive.</p>
+            <pre><code>function isValidIP(str) {
+  let arr = str.split(/[.]/);
+  let re = /^(?:[1-9][0-9]*|0)$/;
+
+  if (arr.length === 4 && arr.every(v => (re.test(v) && v <= 255))) {
+      return true;
+  } else {
+    return false;
+    }
+  }</code></pre>
+          </section>
+          <section class="projects">
+            <h3>Projects</h3>
+            <p><a href="https://marduda.github.io/rsschool-cv/" target="_blank">CV. HTML, CSS & Git Basics</a></p>
+          </section>
+        </div>
+      </div>
+      <footer>
+        <a href="https://github.com/marduda" target="_blank"><img src="./icons/Octicons-mark-github.svg" alt="github logo" class="icon"></a>
+        <p>October 2022</p>
+        <a href="https://rs.school/js/" target="_blank"><img src="./icons/rs_school.svg" alt="rs school logo" class="icon"></a>
+      </footer>
+    </div>
+   
+  </body>
+</html>
