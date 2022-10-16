@@ -138,3 +138,10 @@ code {
   font-size: 1.2rem;
 }
 
+.projects {
+  margin-bottom: 30px;
+}
+
+.projects > p > a {
+  color: var(--font-dark-color)
+}
